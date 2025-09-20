@@ -23,11 +23,7 @@ Before you start, ensure you have the following installed:
 - **CUDA (Optional)**: For GPU acceleration
 - **Dependencies:** You can install all required dependencies via the following:
 
-```bash
-pip install -r requirements.txt
-
-
-## Guidelines
+# Guidelines
 Some suggestions for training your own dataset. Here are some guidelines:
 
 Manually label detection dataset (bounding boxes) and train a rough yolo detection network. The bounding box doesn’t need to be very accurate as long as it’s larger than the objects.
@@ -40,3 +36,9 @@ Use SAM on each bounding box to get the segmentation mask of the object.
 pair the class IDs from the detection model and the segmentation masks from SAM to create the label for that image.
 Manually go through the preliminary segmentation dataset to remove any poorly labeled data
 Download a pretrained YOLO segmentation model from Ultralytics and train extra epochs with the new dataset.
+
+
+
+```bash
+pip install -r requirements.txt
+

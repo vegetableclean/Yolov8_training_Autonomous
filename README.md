@@ -3,7 +3,7 @@
 This repository contains code and resources for training **YOLOv8** (You Only Look Once version 8) on **Qcars** datasets. The aim of this project is to demonstrate how to leverage YOLOv8 for object detection tasks, specifically tailored for identifying objects in Qcars2 datasets.
 
 ![Logo](./assets/yolo.png)
-![GitHub Logo]([https://github.githubassets.com/images/modules/logos_page/](https://github.com/vegetableclean/Yolov8_training_Autonomous/assets/)yolo.png)
+
 
 ## Overview
 

@@ -39,7 +39,7 @@ Some suggestions for training your own dataset. Here are some guidelines:
 - Use the same training configuration file as COCO dataset.
 - The class ID for QCar was 2, same as “car” in COCO dataset.
 - Download pretrained YOLO detection model from Ultralytics and train extra epochs with customized dataset containing QCar data.
-- label tool: (labelImg) https://github.com/HumanSignal/labelImg
+- label tool: (labelImg) https://github.com/HumanSignal/labelImg, training reference: https://docs.ultralytics.com/zh/usage/engine/#how-do-i-customize-the-ultralytics-yolo-detectiontrainer-for-specific-tasks
 2. Use segment anything model (SAM) and custom YOLO detection model to create segmentation dataset and train the YOLO segmentation model
 - After collecting enough images data containing objects of interest (QCar, road signs, traffic lights etc.), use YOLO detection model to classify and estimate bounding boxes.
 - Use SAM on each bounding box to get the segmentation mask of the object.
